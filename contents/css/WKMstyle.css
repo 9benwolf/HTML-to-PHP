@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+@font-face{
+	src: url("../fonts/Avenir-Medium-09.ttf");
+	font-family: AveMed;
+}
+
+@font-face{
+	src: url("../fonts/MADE TOMMY Bold_PERSONAL USE.otf");
+	font-family: MTbold;
+}
+
+body, html{
+	height: 100%;
+	margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1c4f7e;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: AveMed;
+  font-size: 6vw;
+  height: 4vh;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.logo{
+	padding: 15px 10px;
+	float: right;
+	width: 30vw;
+}
+
+.flex-container{
+	display: flex;
+  	flex-direction: column;
+  	font-size: 8vw;
+  	text-align: center;
+}
+.flex-container2{
+	display: flex;
+	flex-wrap: wrap;
+  	flex-direction: row;
+  	font-size: 8vw;
+  	text-align: center;
+	align-content: center;
+	justify-content: center;
+}
+.flex-container2 > div{
+	width: 100px;
+  	margin: 10px;
+  	text-align: center;
+  	line-height: 75px;
+  	font-size: 30px;
+}
+.pastEvents{
+	flex: 33.3%;
+	background-image: url("../../Img/WKM Banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 21.5% 0px 21.5% 0px;
+	color: yellow;
+	font-family: MTbold;
+}
+
+/*IMAGES AND CONTENTS*/
+
+#cont1{
+	content: url("../clickables/Western Bicutan-13.png");
+	width: 40vw;
+	cursor: pointer;
+}
+#cont2{
+	content: url("../clickables/San Martin-13.png");
+	width: 40vw;
+	cursor: pointer;
+}
+#cont3{
+	content: url("../clickables/San Antonio-13.png");
+	width: 40vw;
+	cursor: pointer;
+}
+#cont4{
+	content: url("../clickables/Manuyo Uno-13.png");
+	width: 40vw;
+	cursor: pointer;
+}
+#cont5{
+	content: url("../clickables/We Help.png");
+	width: 40vw;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 1100px){
+	#cont1{
+	content: url("../clickables/Western Bicutan-13.png");
+	width: 35vw;
+	cursor: pointer;
+}
+#cont2{
+	content: url("../clickables/San Martin-13.png");
+	width: 35vw;
+	cursor: pointer;
+}
+#cont3{
+	content: url("../clickables/San Antonio-13.png");
+	width: 35vw;
+	cursor: pointer;
+}
+#cont4{
+	content: url("../clickables/Manuyo Uno-13.png");
+	width: 35vw;
+	cursor: pointer;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 20px 20px 20px;
+  text-decoration: none;
+  font-family: AveMed;
+  font-size: 3vw;
+  height: 4vh;
+	}
+.logo{
+	padding: 20px 15px;
+	float: right;
+	width: 10vw;
+	}
+}

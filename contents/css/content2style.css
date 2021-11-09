@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+@font-face{
+	src: url("../fonts/Avenir-Medium-09.ttf");
+	font-family: AveMed;
+}
+
+@font-face{
+	src: url("../fonts/MADE TOMMY Bold_PERSONAL USE.otf");
+	font-family: MTbold;
+}
+
+body, html{
+	height: 100%;
+	margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1c4f7e;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: AveMed;
+  font-size: 6vw;
+  height: 4vh;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.logo{
+	padding: 15px 10px;
+	float: right;
+	width: 30vw;
+}
+.banner{
+	content: url("../headers/Manuyo Uno Header-13.png");
+	width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+.article > h1{
+	text-align: center;
+	color: #1c4f7e;
+	font-family: MTbold;
+}
+.article > p{
+	margin-top: 0px;
+	padding-left: 10%;
+	padding-right: 10%;
+	justify-content: center;
+	font-size: 4vw;
+	font-family: AveMed;
+}
+.container-box{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+.container-box > div{
+	width: 100px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-bottom: 2.5%;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+}
+/* Images and Texts for Content */
+#contimg1{
+	content: url("../clickables/Western Bicutan-13.png");
+	cursor: pointer;
+}
+#contimg2{
+	content: url("../clickables/San Antonio-13.png");
+	cursor: pointer;
+}
+#contimg3{
+	content: url("../clickables/San Martin-13.png");
+	cursor: pointer;
+}
+
+@media screen and (min-width: 1100px){
+	.logo{
+	padding: 20px 15px;
+	float: right;
+	width: 10vw;
+	}
+	.banner{
+	content: url("../headers/Manuyo Uno Header-13.png");
+	width: 40vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	}
+	li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 20px 20px 20px;
+  text-decoration: none;
+  font-family: AveMed;
+  font-size: 3vw;
+  height: 4vh;
+	}
+	.article > h1{
+	text-align: center;
+	color: #1c4f7e;
+	font-family: MTbold;
+	font-size: 3rem;
+	}
+	.article > p{
+	margin-top: 0px;
+	padding-left: 10%;
+	padding-right: 10%;
+	justify-content: center;
+	font-size: 2vw;
+	font-family: AveMed;
+	}
+	.container-box > div{
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2.5%;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+	}
+	#contimg1{
+	content: url("../clickables/Western Bicutan-13.png");
+	cursor: pointer;
+	width: 25vw;
+	}
+	#contimg2{
+	content: url("../clickables/San Antonio-13.png");
+	cursor: pointer;
+	width: 25vw;
+	}
+	#contimg3{
+	content: url("../clickables/San Martin-13.png");
+	cursor: pointer;
+	width: 25vw;
+	}
+}

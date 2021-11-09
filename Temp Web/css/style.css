@@ -1,0 +1,426 @@
+@charset "utf-8";
+
+@font-face{
+   src:url("../fonts/AvenirNext-Medium-06.ttf");
+	font-family: AveMed;
+}
+@font-face{
+   src:url("../fonts/MADE TOMMY Regular_PERSONAL USE.otf");
+	font-family: MTreg;
+}
+@font-face{
+	src: url("../fonts/MADE TOMMY Bold_PERSONAL USE.otf");
+	font-family: MTbold;
+}
+@font-face{
+	src: url("../fonts/MADE TOMMY Medium_PERSONAL USE.otf");
+	font-family: MTmed;
+}
+@font-face{
+    src: url("../fonts/ARLRDBD.ttf");
+    font-family: ARMT;
+}
+@font-face{
+	src: url("../fonts/Avenir-Medium-09.ttf");
+	font-family: AveMed;
+}
+@font-face{
+	src: url("../fonts/AvenirNext-HeavyItalic-10.ttf");
+	font-family: ANHeavyI;
+}
+@font-face{
+	src: url("../fonts/MADE TOMMY Light_PERSONAL USE.otf");
+	font-family: MTlight;
+}
+body, html{
+	height: 100%;
+	margin: 0;
+}
+#backG1{
+    background-image: url("../img/bg1.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#backG1 h1{
+	color: #1c4f7e;
+	font-family: ANHeavyI;
+	width: 100%;
+	font-size: 7vw;
+	padding-left: 0%;
+	position: absolute;
+	bottom: 3%;
+	text-align: center;	
+}
+
+.backG2{
+    background-image: url("../img/bg2.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.backG3{
+	background-image: url("../img/EAC-08.png");
+    background-size: cover;
+    height: 100vh;
+}
+#backG4{
+	background-image: url("../img/webdesign (2)-08.png");
+    background-size: cover;
+	background-position: center;
+    height: 100vh;
+}
+.backG5{
+	content: url("../img/webdesign-05.png");
+	background-color: #152663;
+	width: 98.93vw;
+	height: 100vh;
+}
+.backG6{
+	content: url("../img/webdesign-06.png");
+	background-color: #152663;
+	width: 100%;
+	height: 100vh;
+}
+.backG7{
+	background-color: white;
+	height: 100vh;
+}
+#backG9{
+	background-color: #1C4F7E;
+	height: 100vh;
+}
+#eventsMid{
+	text-align: center;
+	font-family: MTbold;
+	color: #1C4F7E;
+	font-size: 4rem;
+	padding-top: 1%;
+}
+#flextainerr{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	padding-top: 3%;
+}
+#flextainerr > h1{
+	font-family: MTbold;
+	color: #1C4F7E;
+	display: inline-block;
+	margin: auto;
+}
+#gridcontent{
+	display: grid;
+  	grid-template-columns: auto auto auto;
+  	padding-top: 5%;
+	
+}
+.griditem1{
+	content: url("../img/healasone-13.png");
+	margin: auto;
+	width: 25vw;
+}
+.griditem2{
+	content: url("../contents/clickables/Western Bicutan-13.png");
+	margin: auto;
+	width: 25vw;
+}
+.griditem3{
+	content: url("../Img/santonio-13.png");
+	margin: auto;
+	width: 25vw;
+}
+.griditem4{
+	margin: auto;
+	width: 25vw;
+	
+	text-align: center;
+	font-family: MTreg;
+	color: #1C4F7E;
+	font-size: 2rem;
+	padding-top: 3%;
+}
+.griditem5{
+	margin: auto;
+	width: 25vw;
+	
+	text-align: center;
+	font-family: MTreg;
+	color: #1C4F7E;
+	font-size: 2rem;
+	padding-top: 3%;
+}
+.griditem6{
+	margin: auto;
+	width: 25vw;
+	
+	text-align: center;
+	font-family: MTreg;
+	color: #1C4F7E;
+	font-size: 2rem;
+	padding-top: 3%;
+}
+#tLeft {
+	content: url("../img/WeTopLeft.png");
+	position: relative;
+	left: 3%;
+	top: 5%;
+	width: 20%;
+}
+a:link, a:visited {
+  background-color: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+  color: black;
+}
+#ForEvery {
+	position: relative;
+	left:2%;
+	top:24%;
+    font-family:MTbold;
+	width: 852px;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 6vw;
+	color: rgba(255,255,255,1);
+}
+#youHelp {
+    font-family: MTbold;
+	position: relative;
+	top: 24%;
+	left:2%;
+	width:100px;
+	white-space: nowrap;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3.2vw;
+	color: rgba(233,236,72,1);
+}
+.flextainer{
+	display: flex;
+	flex-direction: row;
+	padding-top: 15%;
+	padding-left: 3%;
+}
+.flextainer2{
+	display: flex;
+	flex-direction: row;
+	padding-top: 40%;
+	padding-left: 5%;
+}
+.appstore{
+	content: url("../img/appstore.png");
+	width: 20vw;
+	cursor: pointer;
+	padding-right: 1.5%;
+}
+.playstore{
+	content: url("../img/gplay.png");
+	width: 20vw;
+	cursor: pointer;
+	padding-left: 1.5%;
+}
+.appstore2{
+	content: url("../img/appstore.png");
+	width: 12vw;
+	cursor: pointer;
+	padding-right: 1%;
+}
+.playstore2{
+	content: url("../img/gplay.png");
+	width: 12vw;
+	cursor: pointer;
+	padding-left: 1%;
+}
+
+/*##############################*/
+/*##########Content###########*/
+/*##############################*/
+
+#contLogo{
+	content: url("../img/DesktopContactIcon-09.png");
+	width: 20vw;
+	padding-top: 1%;
+	padding-left: 2%;
+	float: left;
+	z-index: 1;
+}
+.gridicons{
+	display: flex;
+	flex-direction: row;
+	gap:1%;
+	position: relative;
+	justify-content: flex-end;
+	padding-top: 4%;
+	padding-right: 2%;
+	padding-bottom: 0px;
+	float: right;
+}
+.twitter{
+	content: url("../img/icons/twitter.svg");
+	width: 5vw;
+	cursor: pointer;
+}
+.fb{
+	content: url("../img/icons/fb.svg");
+	width: 5vw;
+	cursor: pointer;
+}
+.ig{
+	content: url("../img/icons/ig.svg");
+	width: 5vw;
+	cursor: pointer;
+}
+#contTainers{
+	padding-top: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+    text-align: center;
+	top: 25%;
+	width: 60%;
+}
+#contTainers > h1{
+	margin:auto;
+	color: #f1e449;
+	font-family: MTmed;
+}
+.gridContact{
+	display: grid;
+  	grid-template-columns: 1fr 1fr;
+  	padding: 10px;
+	width: 60%;
+	margin-left: 27%;
+	margin-right: 23%;
+	text-align: left;
+	grid-column-gap: 0px;
+}
+#nested1{
+	display: grid;
+  	grid-template-columns: 1fr;
+  	padding: 10px;
+	width: 30%;
+	text-align: left;
+	grid-column-gap: 0%;
+	height: 50vh;
+	width: 25vw;
+	align-items: center;
+}
+#nested2{
+	display: grid;
+  	grid-template-columns: 1fr;
+  	padding: 10px;
+	width: 60%;
+	text-align: left;
+	grid-column-gap: 0%;
+	height: 30vh;
+}
+
+/*##############################*/
+/*#############Icons############*/
+/*##############################*/
+
+.messWhite{
+	content: url("../Img/Icons/messenger white.svg");
+	width: 2vw;
+	display: inline;
+	float:left;
+}
+.mail{
+	content: url("../Img/Icons/mail.svg");
+	width: 2vw;
+	display: inline-block;
+	float: left;
+}
+.phone{
+	content: url("../Img/Icons/phone.svg");
+	width: 2vw;
+	display: inline-block;
+	float: left;
+}
+.loc{
+	content: url("../Img/Icons/loc.svg");
+	width: 2vw;
+	display: inline-block;
+	float: left;
+}
+/*##############################*/
+/*#############TEEXTS############*/
+/*##############################*/
+#forServp{
+	color: #f1e449;
+	font-family: MTreg;
+}
+#ForUse{
+	color: #f1e449;
+	font-family: MTreg;
+}
+
+.text{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-right: 100px;
+	color: white;
+	font-family: MTreg;
+}
+.text2{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-right: 30px;
+	padding-top: 0px;
+	color: white;
+	font-family: MTreg;
+}
+#footer{
+	text-align: center;
+	padding-bottom: 0px;
+	padding-top: 5%;
+	color: #FFFFFF;
+	font-family: MTlight;
+}
+
+#searchSelect {
+	position: relative;
+	overflow: visible;
+	width: 855px;
+	top: 30%;
+	left: 3%;
+	white-space: nowrap;
+	line-height: 85.99987030029297px;
+	text-align: left;
+	font-family: MTmed;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3vw;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.08px;
+}
+#download {
+	position: relative;
+	overflow: visible;
+	width: 855px;
+	top: 26%;
+	left: 3%;
+	white-space: nowrap;
+	line-height: 85.99987030029297px;
+	text-align: left;
+	font-family: MTmed;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3vw;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.08px;
+}

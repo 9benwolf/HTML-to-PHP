@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+@font-face{
+   src:url("../fonts/AvenirNext-Medium-06.ttf");
+	font-family: AveMed;
+}
+@font-face{
+	src: url("../fonts/MADE TOMMY Bold_PERSONAL USE.otf");
+	font-family: MTbold;
+}
+@font-face{
+	src: url("../fonts/MADE TOMMY Medium_PERSONAL USE.otf");
+	font-family: MTmed;
+}
+@font-face{
+    src: url("../fonts/ARLRDBD.ttf");
+    font-family: ARMT;
+}
+@font-face{
+	src: url("../fonts/Avenir-Medium-09.ttf");
+	font-family: AveMed;
+}
+body, html{
+	height: 100%;
+	margin: 0;
+}
+#backG1{
+    background-image: url("../img/bg1.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.backG2{
+    background-image: url("../img/bg2.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.backG3{
+	background-color: white;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#backG4{
+	content: url("../img/webdesign-04.png");
+	background-color: #152663;
+	width: 98.93vw;
+	height: 100vh;
+}
+.backG5{
+	content: url("../img/webdesign-05.png");
+	background-color: #152663;
+	width: 98.93vw;
+	height: 100vh;
+}
+.backG6{
+	content: url("../img/webdesign-06.png");
+	background-color: #152663;
+	width: 100%;
+	height: 100vh;
+}
+#tLeft {
+	content: url("../img/WeTopLeft.png");
+	position: relative;
+	left: 3%;
+	top: 5%;
+	width: 20%;
+}
+a:link, a:visited {
+  background-color: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+  color: black;
+}
+#Register {
+	left: 633.942px;
+    font-family: AveMed;
+	top: 70.251px;
+	position: absolute;
+	overflow: visible;
+	width: 111px;
+	white-space: nowrap;
+	line-height: 38px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Avenir-Medium;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+}
+#Features {
+	left: 778.713px;
+    font-family: AveMed;
+	top: 70.251px;
+	position: absolute;
+	overflow: visible;
+	width: 116px;
+	white-space: nowrap;
+	line-height: 38px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Avenir-Medium;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+}
+#Services {
+	left: 928.57px;
+    font-family: AveMed;
+	top: 70.251px;
+	position: absolute;
+	overflow: visible;
+	width: 110px;
+	white-space: nowrap;
+	line-height: 38px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Avenir-Medium;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+}
+#Events {
+	left: 1074.001px;
+    font-family: AveMed;
+	top: 70.251px;
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	white-space: nowrap;
+	line-height: 38px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Avenir-Medium;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+}
+#Contact_Us {
+	left: 1197.51px;
+	top: 70.251px;
+    font-family: AveMed;
+	position: absolute;
+	overflow: visible;
+	width: 150px;
+	white-space: nowrap;
+	line-height: 38px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Avenir-Medium;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+}
+
+#mRight {
+	content: url("../img/Mid Right.png");
+	position: relative;
+	right: -45%;
+	width: 50%;
+	bottom: -25%;
+}
+#ForEvery {
+	position: relative;
+	left:2%;
+	top:24%;
+    font-family:MTbold;
+	width: 852px;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 6vw;
+	color: rgba(255,255,255,1);
+}
+#youHelp {
+    font-family: MTbold;
+	position: relative;
+	top: 24%;
+	left:2%;
+	width:100px;
+	white-space: nowrap;
+	text-align: left;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3.2vw;
+	color: rgba(233,236,72,1);
+
+}
+#andapp {
+    content: url("../img/approid.png");
+	position: relative;
+	width: 35%;
+	top: 62%;
+	left: 3%;
+}
+#searchSelect {
+	position: relative;
+	overflow: visible;
+	width: 855px;
+	top: 30%;
+	left: 3%;
+	white-space: nowrap;
+	line-height: 85.99987030029297px;
+	text-align: left;
+	font-family: MTmed;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3vw;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.08px;
+}
+#download {
+	position: relative;
+	overflow: visible;
+	width: 855px;
+	top: 26%;
+	left: 3%;
+	white-space: nowrap;
+	line-height: 85.99987030029297px;
+	text-align: left;
+	font-family: MTmed;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3vw;
+	color: rgba(255,255,255,1);
+	letter-spacing: -0.08px;
+}
+.easyCov{
+    text-align: center;
+    font-family: ARMT;
+    color: #E7ED3A;
+    font-size: 75px;
+}
+.SSB {
+	position: relative;
+	text-align: center;
+	word-spacing: 80px;
+	color: #152663;
+	font-size: 65px;
+	font-family: MTbold;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.phone1{
+	content: url("../img/Phone/1.png");
+	float: left;
+	top: -150px;
+	padding-left: 345px;
+	width: 221px;
+	height: 430px;
+	position: relative;
+	
+}
+.phone2{
+	content: url("../img/Phone/2.png");
+	float: left;
+	top: -150px;
+	padding-left: 115px;
+    padding-top: -px;
+	width: 221px;
+	height: 430px;
+	position: relative;
+}
+.phone3{
+	content: url("../img/Phone/3.png");
+	float: left;
+	top: -150px;
+	padding-left: 80px;
+    padding-top: 0px;
+	width: 221px;
+	height: 430px;
+	position: relative;
+}
+p.Sppl {
+	left:291px;
+	top:0px;
+	overflow: visible;
+	width: 341px;
+	text-align: center;
+	position: relative;
+	font-family: AveMed;
+	font-size: 26px;
+	color: #152663;
+}
+p.Rpa{
+	left:630px;
+	top:-105px;
+	overflow: visible;
+	width: 341px;
+	text-align: center;
+	position: relative;
+	font-family: AveMed;
+	font-size: 26px;
+	color: #152663;
+}
+p.Ubi{
+	left:925px;
+	top:-200px;
+	overflow: visible;
+	width: 341px;
+	text-align: center;
+	position: relative;
+	font-family: AveMed;
+	font-size: 26px;
+	color: #152663;
+}

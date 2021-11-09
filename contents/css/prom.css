@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: AveMed;
+    src: url("../fonts/Avenir-Medium-09.ttf");
+}
+
+@font-face {
+    font-family: MTbold;
+    src: url("../fonts/MADE\ TOMMY\ Bold_PERSONAL\ USE.otf");
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 350px){
+
+.prompagecontainer{
+    height: 100vh;
+    width: 100vw;
+}
+
+.promheader{
+    height: 10vh;
+}
+
+.content-area{
+    height: 90vh;
+}
+
+.promheader ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1c4f7e;
+    height: 10vh;
+}
+
+.promheader li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-decoration: none;
+    font-family: AveMed;
+    font-size: 5vh;
+    height: 10vh;
+    width: max-content;
+}
+
+.promheader li a:hover{
+    background-color: #f2e24e;
+    color: #1c4f7e;
+}
+
+.box1 img{
+    width: max-content;
+    align-self: center;
+}
+
+.article1{
+    padding: 20px 40px;
+}
+
+.article1 h1{
+    text-align: center;
+    font-family: MTbold;
+}
+
+.article1 p{
+    font-family: AveMed;
+}
+
+li{
+    float: left;
+}
+
+.logo{
+    float: right;
+    height:6vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-right: 1vh;
+}
+
+.box1{
+    display: flex;
+    height: 45vh;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+.img-container{
+    display: flex;
+    border: 5px solid green;
+    height: 30vh;
+    width: 80%;
+    align-self: center;
+    background-image: url("../headers/HAO Header-13.png");
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+}
+
+@media screen and (min-width: 1100px){
+
+}
