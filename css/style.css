@@ -57,7 +57,7 @@ html, body{
 	font-family: MTmed;
 	text-align: center;
 	font-size: 2rem;
-	padding-top: 5vh;
+	padding-top: 3%;
 }
 
 .p1logo{
@@ -772,7 +772,7 @@ html, body{
 }
 
 #p8containerm{
-	height: 100vh;
+	height: 125vh;
 	background-color: #1c4f7e;
 }
 
@@ -806,6 +806,60 @@ html, body{
 .p8storem img{
 	width: 35vw;
 	cursor: pointer;
+}
+
+.nl-container{
+	height: 15vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#promotionalm{
+	color: #f2e24e;
+	font-family: MTmed;
+	font-size: 2.2vh;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.emInputm{
+	background-color: #1c4f7e;
+	color: #f2e24e;
+	border: 2px solid #f2e24e;
+	border-radius: 15px;
+	width: 55%;
+	height: 50%;
+	text-align: center;
+	margin-top: 2%;
+}
+
+.emInputm::placeholder{
+	font-family: MTreg;
+	color: #f2e24e;
+	opacity: 1;
+}
+.sub-buttonm{
+	font-family: MTmed;
+	background-color: #1c4f7e;
+	color: #f2e24e;
+	cursor: pointer;
+	width: 45vw;
+	height: 8vh;
+	border-radius: 15px;
+	border: 2px solid #f2e24e;
+	margin-top: 3%;
+}
+
+.sub-buttonm:hover{
+	background-color: #f2e24e;
+	color: #1c4f7e;
+}
+
+.checkboxtermM{
+	color: white;
+	font-family: MTreg;
 }
 
 .p8grid-containerm{
@@ -1028,6 +1082,11 @@ html, body{
 /* ================================================================= */
 /*PAGE 1 DESKTOP STYLES*/
 /* ================================================================= */
+
+*{
+	zoom: 1;
+}
+
 #backg1 h1{
 	margin-top: 5vh;
 }
@@ -1045,7 +1104,7 @@ html, body{
 	background-color: #f2e24e;
 	width: 48vw;
 	height: 10vh;
-	margin-top: 42vh;
+	margin-top: 20%;
 	margin-left: 52vw;
 	justify-content: center;
 }
@@ -1353,8 +1412,8 @@ html, body{
 }
 
 .p4imgw img{
-	width: 14vw;
-	height: 28vw;
+	width: 80%;
+	height: 100%;
 }
 /* ================================================================= */
 /*PAGE 4 DESKTOP END*/
@@ -1703,12 +1762,21 @@ html, body{
 .checkboxterm{
 	font-family: MTreg;
 	color: white;
+	width: 22%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.checkbb{
+	width: 15px;
+	height: 15px;
 }
 
 #promotional{
 	text-align: center;
 	color: #f2e24e;
 	font-family: MTmed;
+	margin-top: 2%;
 }
 
 .emInput{
@@ -1719,12 +1787,19 @@ html, body{
 	height: 25%;
 	text-align: center;
 	color: #f2e24e;
+	margin-top: 1%;
+	font-size: 2.5vh;
+}
+
+.emInput::placeholder{
+	font-family: MTreg;
+	color: #f2e24e;
+	opacity: 1;
 }
 
 .p8grid-upper{
 	display: flex;
 	flex-direction: column;
-	border: 3px solid yellow;
 	width: 100%;
 	height: 38%;
 	align-items: center;
@@ -1740,7 +1815,7 @@ html, body{
     border: 2px solid #f2e24e;
     color: #f2e24e;
     cursor: pointer;
-	margin-top: 1%;
+	margin-top: 2%;
 }
 
 .sub-button:hover{

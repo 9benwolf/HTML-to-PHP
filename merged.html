@@ -6,7 +6,10 @@
 <meta charset="UTF-8">
 <title>WeTap Mobile App</title>
 <link rel="stylesheet" href="css/style.css">  
-<link rel="icon" href="Img/FINAL WETAP LOGO!!!!-05.png"> 
+<link rel="icon" href="Img/FINAL WETAP LOGO!!!!-05.png">
+<script>
+    document.querySelector("meta[name=viewport]").setAttribute('content', 'width=device-width, initial-scale='+(1/window.devicePixelRatio));
+</script>
 </head>
 <body>
 
@@ -640,6 +643,14 @@
    
                <img src="Img/gplay.png" alt="" onClick="location.href='https://play.google.com/store/apps/details?id=com.alltimetechsol.etap';">
            </div> <!-- 2nd child end -->
+          
+           <div class="nl-container">
+            <h1 id="promotionalm">GET PROMOTIONAL AND DISCOUNT UPDATES!</h1>
+            <input type="email" placeholder="Enter your email address" name="emailAdd" class="emInputm"></input><br>
+            <div class="checkboxtermM">
+            <input type="checkbox" class="checkb"><span class="checkmark"></span> I agree to the terms and conditions</input></div>
+            <input type="submit" value="Subscribe" class="sub-buttonm">
+           </div>
    
        <div class="p8grid-containerm"> <!-- 3rd of 4 child -->   
            <div class="p8grid1m"> 
@@ -747,11 +758,13 @@
 
             <div class="p8grid-upper">
 
-                <h1 id="promotional">GET PROMOTIOAL AND DISCOUNT UPDATES!</h1>
-                <input type="email" placeholder="Enter your email address" name="emailAdd" class="emInput"></input><br>
-                <div class="checkboxterm">
-                <input type="checkbox">I agree to the terms and conditions</input></div>
-                <input type="submit" value="Subscribe" class="sub-button">
+                <h1 id="promotional">GET PROMOTIONAL AND DISCOUNT UPDATES!</h1>
+                    <form action="includes/newAdd.inc.php" method="post">
+                        <input type="email" placeholder="Enter your email address" name="emailAdd" class="emInput"></input><br>
+                        <div class="checkboxterm">
+                        <input type="checkbox" class="checkbb">I agree to the terms and conditions</input></div>
+                        <button id="myBtn" class="sub-button" method="post">Submit</button>
+                    </form>
 
             </div>
             
